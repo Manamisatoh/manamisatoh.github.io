@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp-act</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+             
+        <div class="main-nav">
+            <!-- href jumps to where id applied -->
+            <ul>
+                <li><a href="#home"></a>Home</li>
+                <li><a href="#about"></a>About</li>
+                <li>
+                    <a href="#"> <img src="assets/images/kredo-logo.png" alt="logo"></a>   
+                </li>
+                <li><a href="#schedules"></a>Schedules</li>
+                <li><a href="#contact"></a>Contact</li>
+            </ul>           
+        </div>
+        
+        <div class="banner">
+            <div class="banner-text">
+                <h1>Kredo Japan Online</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi fugiat nam vero libero quam atque ducimus suscipit! Provident nesciunt sapiente unde cupiditate sed maxime architecto.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam magni nobis iusto ab facere fugit!</p>
+                <a href="https://kredo.jp/online/" class="btn_learn">Lean More</a>
+                <!-- <input type="submit" is used in a "form". To jump, use an "a" -->
+            </div>  
+        </div>
+
+        <div class="about" id="about">
+            <h2>About</h2>
+            <div id="about-1">
+                <img src="assets/images/img1.png" alt="about">
+                <div class="about-text text-left">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ipsum, itaque ut odit aperiam porro saepe modi. Harum praesentium sunt aliquam perferendis magnam iste voluptatibus a minus sapiente ipsam tempore repudiandae incidunt deleniti, beatae aliquid voluptate necessitatibus fugiat quam? Ducimus cumque soluta minima sit? Quaerat.</p>
+                    <a href="https://kredo.jp/online/" class="btn_learn">Learn More</a>
+                </div>       
+            </div>
+
+            <div id="about-2">
+                <img src="assets/images/img2.png" alt="about">
+                <div class="about-text text-right">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ipsum, itaque ut odit aperiam porro saepe modi. Harum praesentium sunt aliquam perferendis magnam iste voluptatibus a minus sapiente ipsam tempore repudiandae incidunt deleniti, beatae aliquid voluptate necessitatibus fugiat quam? Ducimus cumque soluta minima sit? Quaerat.</p>
+                    <a href="https://kredo.jp/online/" class="btn_learn">Learn More</a>
+                </div>
+            </div>
+        
+        </div>
+
+        
+        <div class="footer-container">
+
+            <div class="footer-widgets-1">
+                <h2>Book Course Schedule</h2>
+                <form action="" method="" class="booking_form">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><label for="name">Full Name</label></td>
+                                <td><input type="text" name="name" id="name" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="age">Age</label></td>
+                                <td><input type="number" name="age" id="age"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email</label></td>
+                                <td><input type="email" name="email" id="email" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="date">Date</label></td>
+                                <td><input type="date" name="date" id="date"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <input type="submit" value="Book" class="btn_send" name="btn_send_book">
+                </form>
+            </div>
+
+            <div class="footer-widgets-2">
+                <h2>Booking List</h2>
+                <table class="book-list">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Full Name</th>
+                            <th>Course</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>02/13/2023</td>
+                            <td>Bernardine Ragas</td>
+                            <td>Bootcamp</td>
+                            <td class="reserved">Reserved</td>
+                        </tr>
+                        <tr class="even_row">
+                            <td>02/13/2023</td>
+                            <td>Roel Pagalan</td>
+                            <td>Bootcamp</td>
+                            <td class="pending">Pending</td>
+                        </tr>
+                        <tr>
+                            <td>03/05/2023</td>
+                            <td>Antonio Sylverster</td>
+                            <td>Bootcamp</td>
+                            <td class="pending">Pending</td>
+                        </tr>
+                        <tr class="even_row">
+                            <td>03/11/2023</td>
+                            <td>Joe Marie Chan</td>
+                            <td>Bootcamp</td>
+                            <td class="pending">Pending</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            
+        </div>
+
+        <div class="footer-copyright">
+            <p>Designed by Kredo Japan Online &copy;2024 </p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
